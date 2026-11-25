@@ -19,3 +19,4 @@ Login, employees with individual rates, Monday–Sunday timesheet, full/half/no-
 - Supabase offers managed backups depending on plan. Configure database backups and recovery appropriate to your needs.
 - Only authorized users listed in `admins` can access business tables; don't share admin credentials.
 - PWA installation and a dedicated monthly-report screen are not yet implemented in this initial source version.
+\n\n## Upgrade to v1.1 — Custom Payment\n\nFor an existing Supabase project, run `supabase/migration_custom_payment.sql` once in the Supabase SQL Editor. This is an additive migration and preserves existing work logs. Then deploy the updated source code. New installations already get these columns from `supabase/schema.sql`.\n
